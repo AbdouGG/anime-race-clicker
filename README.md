@@ -69,6 +69,7 @@ end
 
 function T4()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Runtime.RaceChunk["Chunk_16_113"]["Side_D"].CFrame
+end
 --Tabs
 local FarmTab = Window:MakeTab({
 	Name = "Auto Farm",
