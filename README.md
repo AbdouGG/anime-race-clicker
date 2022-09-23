@@ -12,6 +12,7 @@ _G.shor = true
 _G.T1 = true
 _G.T2 = true
 _G.T3 = true
+_G.T3 = true
 
 
 --Functions
@@ -65,6 +66,9 @@ end
 function T3()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Runtime.RaceChunk["Chunk_16_113"]["Side_L"].CFrame
 end
+
+function T4()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Runtime.RaceChunk["Chunk_16_113"]["Side_D"].CFrame
 --Tabs
 local FarmTab = Window:MakeTab({
 	Name = "Auto Farm",
@@ -142,6 +146,13 @@ FarmTab:AddButton({
   	end    
 })
 
+FarmTab:AddButton({
+	Name = "Race Attack On Titen End TP",
+	Callback = function()
+            T4()
+  	end    
+})
+
 --Dropdowns
 
 MiscTab:AddDropdown({
@@ -168,3 +179,5 @@ CreaditsTab:AddLabel("By Xoova Sub To Xoova In YT :)")
 
 end
 OrionLib:Init()
+
+
