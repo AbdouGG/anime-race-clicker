@@ -1,7 +1,7 @@
 if game.PlaceId == 10714365287 then
 
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    local Window = OrionLib:MakeWindow({Name = "Taha My Pet", HidePremium = false, IntroEnabled = false,IntroText = "WLC TO Taha Gay Hub", SaveConfig = true, ConfigFolder = "OrionTest"})
+    local Window = OrionLib:MakeWindow({Name = "Xoova Hub", HidePremium = false, IntroEnabled = false,IntroText = "WLC TO Taha Gay Hub", SaveConfig = true, ConfigFolder = "OrionTest"})
 
 --Value
 _G.autoTab = true
